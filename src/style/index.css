@@ -1,0 +1,155 @@
+
+.row{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.NameText{
+    margin-top: -12px;
+    
+}
+.LogoImg{
+  height: 27px;
+}
+.LogoText{
+height: 17px;
+margin-left: 10px;
+}
+.DownloadCvBtN{
+  background-color: #FD6F00;
+  color: white;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  border-radius: 3px;
+  
+}
+.HireMebtn{
+    width: 6rem;
+    background-color: #FD6F00;
+    color: white;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+  
+.Ellipse{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: 30px;
+}
+  
+.ProfilePhoto{
+    height: 350px; 
+    width: 300px; 
+    position: relative;
+    margin-top: -24px;
+    border-radius: 46.8%;
+    
+}
+.Icons{
+ font-size:  20px;
+ margin-right: 5rem;
+}
+
+
+.card{
+    background-color: rgb(238, 238, 238);
+}
+
+  .Group{
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .BtnGroup{
+    color: rgb(0, 0, 0);
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 3px;
+  }
+  .BtnGroup:hover{
+    color: white;
+    background-color: #FD6F00;
+    cursor: pointer;
+  }
+  .BtnGroup:active{
+    background-color: #FD6F00;
+  }
+
+ .carouselExampleCaptions{
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+ }
+
+
+
+.carousel-caption {
+  text-align: left;
+  margin-left: 5rem;
+  
+}
+@media only screen and (max-width: 768px) {
+  .Icons{
+  /* text-align: center; */
+  margin-right: 0rem !important;
+    
+  }
+  .Ellipse{
+    margin-top: 5rem;
+    
+
+  }
+  .ProfilePhoto{
+    margin-top: 26px;
+  }
+  .AllBtnGroup{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  }
+
+  @media only screen and (max-width: 990px) {
+    .carousel-caption {
+      position: static;
+      left: 0%;
+    }
+
+  }
+
+  .ContactMeBtn{
+    height: 35px;
+    background-color: #FD6F00;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+  }
+  .Footer{
+    background-color: rgb(243, 243, 243);
+  }
+
+.FooterIcons{
+  font-size:  20px;
+}
+
+.FooterText:hover{
+ color: #FD6F00;
+ cursor: pointer;
+}
+.FooterPrivacy{
+  background-color: rgb(67, 65, 65);
+}
+.ContactMeBtn:hover, .HireMebtn:hover, .DownloadCvBtN:hover{
+  color: black;
+}
+
+
+
