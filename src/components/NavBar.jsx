@@ -2,6 +2,7 @@ import React from 'react'
 import '../style/index.css'
 import LogoImg from '../Images/logo.png'
 import LogoText from '../Images/logoText.png'
+
 const NavBar = () => {
   return (
     <>
@@ -40,4 +41,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;
